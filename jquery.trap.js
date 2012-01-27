@@ -65,6 +65,7 @@ IS" AND ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED.
 				nextIndex = prevIndex;
 			}
 			
+			curElt.blur();
 			curElt = $focussable.eq(nextIndex);
 			curElt.focus();
 		
